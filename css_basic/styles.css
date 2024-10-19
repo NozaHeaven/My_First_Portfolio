@@ -43,3 +43,59 @@ header, footer {
     padding: 15px; /* Padding */
     text-align: center; /* Center align text */
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light background for better readability */
+    color: #333; /* Dark text color */
+}
+
+header {
+    background-color: #4CAF50; /* Green header background */
+    color: white; /* White text in header */
+    padding: 20px; /* Padding around header content */
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 2em; /* Increase font size for the main title */
+}
+
+.logo {
+    font-size: 2.5em; /* Make logo bigger */
+    margin-right: 10px; /* Space between logo and title */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Use flexbox for horizontal layout */
+}
+
+nav li {
+    margin: 0 15px; /* Space between navigation items */
+}
+
+nav a {
+    color: white; /* White links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover for clarity */
+}
+
+main {
+    padding: 20px; /* Padding around main content */
+    background-color: white; /* White background for main content */
+    margin: 20px 0; /* Margin around main content */
+}
+
+footer {
+    text-align: center; /* Center text in footer */
+    padding: 10px; /* Padding around footer */
+    background-color: #4CAF50; /* Same background as header */
+    color: white; /* White text */
+}
